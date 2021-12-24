@@ -10,6 +10,8 @@ import { ProductCreateComponent } from './product/product-create/product-create.
 // import {findFlatIndexEntryPoint} from "@angular/compiler-cli/src/ngtsc/entry_point";
 import {ProductDeleteComponent} from "./product/product-delete/product-delete.component";
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import {ProductEditComponent} from "./product/product-edit/product-edit.component";
+
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { ProductDetailComponent } from './product/product-detail/product-detail.
     ProductCreateComponent,
     ProductDeleteComponent,
     ProductDetailComponent,
+    ProductEditComponent
+
 
   ],
   imports: [

@@ -48,4 +48,13 @@ export class ProductService {
   getById(id: any) {
     return this.products.find(product => product.id == id);
   }
+
+  edit(id: any, product: Product) {
+    for (let i = 0; i < this.products.length; i++) {
+      if (this.products[i].id == id) {
+        this.products[i] = product
+      }
+    }
+  }
+
 }

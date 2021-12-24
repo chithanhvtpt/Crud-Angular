@@ -15,7 +15,6 @@ export class ProductDeleteComponent implements OnInit {
     let id = this.activatedRoute.snapshot.paramMap.get("id");
     this.productService.delete(id)
     this.router.navigate(["product"])
-
   }
 
 }
